@@ -83,7 +83,7 @@ function displaycart(a){
         {
             var {image, title, price} = items;
             total=total+price;
-            document.getElementById('total').innerHTML="$ "+total+".00";
+            document.getElementById('total').innerHTML="₹ "+total+".00";
             return(
                 `<div class='cart-item'>
                 <div class='row-img'>
